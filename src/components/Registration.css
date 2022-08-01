@@ -1,0 +1,67 @@
+.container {
+    text-align: center;
+    background-color: AliceBlue;  
+    color: rgb(77, 76, 76);
+    display: relative;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+  .container h1{
+    margin-top: auto;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    font-size: 40px;
+  }
+  
+  .container form label{
+    font-weight: bold;
+  }
+
+  .input_field{
+    line-height: 35px;
+    margin-bottom: 30px;
+    width: 470px;
+  
+  }
+
+  ::placeholder {
+    text-align: center; 
+  }
+
+  .button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 165px;
+    height: 45px;
+    border: none;
+    outline: none;
+    background: #7b7777;
+    color: #fff;
+    font-size: 19px;
+    border-radius: 40px;
+    text-align: center;
+
+}
+
+.wrapper{
+  justify-content: center;
+  width: 400px;
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  padding-right: 105px;
+}
+
+input[type="checkbox"]{
+  width: 30px;
+  height: 30px;
+}
+
+.wrapper label{
+  padding-left: 15px;
+  padding-top: 13px;
+}
+
