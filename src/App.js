@@ -1,17 +1,25 @@
+import {BrowserRouter as Router, Route, Routes}  from 'react-router-dom';
 import './App.css';
-import './components/Registration.css';
+import NavBar from './Navbar/Navbar';
+import Home from './Home/Home';
+import Registration from './Registration/Registration';
 
 
-import Home from './components/Home';
-//import Registration from './components/Registration'
 
 function App() {
   return (
-    <div className="container">
-      <Home/> 
-    </div>
+    <Router>
+      <div className="App">
+        <NavBar />
+        <div className="container">
+          <Routes>
+          <Route  path="/Home" element={<Home />}></Route>
+          <Route path="/Registration" element={<Registration />}></Route>
+          </Routes>
+        </div>
+      </div> 
+      </Router>
   );
 }
 
-
-export default App;
+export default App
